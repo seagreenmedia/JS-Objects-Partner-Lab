@@ -8,11 +8,9 @@ Please read all three steps before starting each Part and plan your code accordi
 ## Part One
 
 1. Create the following form in html
-
-![image here]()
-
-2. Create an event listener for the submit button. When it is clicked, gather all the data in the form and display in the console
-3. Store all the form data in an object
+![Mock up One](mockupOne.png)
+1. Create an event listener for the submit button. When it is clicked, gather all the data in the form and display in the console
+1. Store all the form data in an object
 
 ## Part Two
 
@@ -20,9 +18,12 @@ Please read all three steps before starting each Part and plan your code accordi
 2. Use the information in the object to render the following HTML
 3. Add img and list of certifications to the license
 
-![image here]()
+![Mockup Two](mockupTwo.png)
 
 ## Part Three
 
-1. 
+1. Add all of the teammates data into the `data.js` file. Each team member should have their first and last name, role in the course, and prefered language.
+1. Import the data from the provided `data.js` file 
+1. Convert each entry in the data in `data.js` into an object
+
 ***Happy Hacking!***
