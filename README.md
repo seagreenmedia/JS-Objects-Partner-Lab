@@ -8,9 +8,10 @@ Please read all three steps before starting each Part and plan your code accordi
 ## Part One
 
 1. Create the following form in html
-![Mock up One](mockupOne.png)
 1. Create an event listener for the submit button. When it is clicked, gather all the data in the form and display in the console
 1. Store all the form data in an object
+
+![Mock up One](mockupOne.png)
 
 ## Part Two
 
