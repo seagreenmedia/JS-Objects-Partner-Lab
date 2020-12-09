@@ -13,6 +13,10 @@
 // console.log(mySpecialObject.key);
 // console.log(mySpecialObject.hello());
 
+let user = {
+    someParameter: ''
+};
+
 function gatherData(event) {
     event.preventDefault();
     let myForm = document.getElementById("myForm");
@@ -24,6 +28,36 @@ function gatherData(event) {
     const password = formData.get('password');
     const passwordConf = formData.get('passwordConf');
     console.log(firstName, lastName, age, password, passwordConf);
+
+    user = {
+        firstName: firstName,
+        lastName: lastName,
+        age: age,
+        password: password,
+        passwordConf: passwordConf
+    }
+
+    console.log(user);
 }
 
 document.getElementById("submitButton").addEventListener("click", gatherData);
+
+let object = {}
+
+let person = {
+    firstName: 'Joh',
+    lastName: 'Doe',
+    age: '26',
+};
+
+console.log(person['firstName']); // John
+console.log(person.firstName); // John
+console.log(person.lastName) // silly
+console.log(person.age); //cheese
+
+// some other type of task
+// ....
+
+person.job = 'Software Developer';
+
+console.log(person.job) // Software Developer
